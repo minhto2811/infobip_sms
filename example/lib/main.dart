@@ -25,20 +25,16 @@ class _MyAppState extends State<MyApp> {
   }
 
   sendOTP() async {
-    //update UI
     try {
       await InfoBipSms.sendPinCode(recipientPhone: '+840987654321');
-      //Check sms
     } catch (e) {
       //TODO
     }
   }
 
   verifyOTP() async {
-    //update UI
     try {
       await InfoBipSms.verifyPin(pinCode: '1234');
-      //Check sms
     } catch (e) {
       //TODO
     }
