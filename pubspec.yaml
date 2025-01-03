@@ -1,6 +1,6 @@
 name: infobip_sms
 description: "Flutter plugin that integrates Infobip's SMS service, enabling fast and efficient message delivery."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/minhto2811/infobip_sms.git
 
 environment:
